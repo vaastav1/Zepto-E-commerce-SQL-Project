@@ -1,4 +1,4 @@
-🛒 Zepto E-commerce SQL Data Analyst Portfolio Project
+# 🛒 Zepto E-commerce SQL Data Analyst Portfolio Project
 
 This is a complete, real-world data analyst portfolio project based on an e-commerce inventory dataset scraped from Zepto
  — one of India’s fastest-growing quick-commerce startups. This project simulates real analyst workflows, from raw data exploration to business-focused data analysis.
@@ -11,7 +11,7 @@ This project is perfect for:
 
 💼 Preparing for interviews in retail, e-commerce, or product analytics
 
-📌 Project Overview
+## 📌 Project Overview
 
 The goal is to simulate how actual data analysts in the e-commerce or retail industries work behind the scenes to use SQL to:
 
@@ -20,7 +20,7 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 ✅ Implement Data Cleaning to handle null values, remove invalid entries, and convert pricing from paise to rupees
 ✅ Write business-driven SQL queries to derive insights around pricing, inventory, stock availability, revenue and more
 
-📁 Dataset Overview
+## 📁 Dataset Overview
 
 The dataset was sourced from Kaggle and was originally scraped from Zepto’s official product listings. It mimics what you’d typically encounter in a real-world e-commerce inventory system.
 
@@ -48,8 +48,8 @@ outOfStock: Boolean flag indicating stock availability
 
 quantity: Number of units per package
 
-🔧 Project Workflow
-1. Database & Table Creation
+## 🔧 Project Workflow
+### 1. Database & Table Creation
 
 Create a SQL table with appropriate data types:
 ```sql
@@ -65,9 +65,8 @@ CREATE TABLE zepto (
   outOfStock BOOLEAN,
   quantity INTEGER
 );
-
-
-2. Data Import
+```
+### 2. Data Import
 Load the CSV into PostgreSQL using:.
 
  - If you're not able to use the import feature, write this code instead:
@@ -78,7 +77,7 @@ Load the CSV into PostgreSQL using:.
 ```
 - Faced encoding issues (UTF-8 error), which were fixed by saving the CSV file using CSV UTF-8 format.
 
-3. 🔍 Data Exploration
+### 3. 🔍 Data Exploration
 
 Count total records
 
@@ -92,13 +91,13 @@ Compare in-stock vs out-of-stock products
 
 Detect duplicate product names
 
-4. 🧹 Data Cleaning
+### 4. 🧹 Data Cleaning
 
 Remove rows where MRP or discounted price is zero
 
 Convert mrp and discountedSellingPrice from paise to rupees
 
-5. 📊 Business Insights
+### 5. 📊 Business Insights
 
 Find top 10 best-value products based on discount percentage
 
