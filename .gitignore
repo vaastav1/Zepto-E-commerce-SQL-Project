@@ -1,0 +1,23 @@
+# Ignore CSV files
+# zepto_v2.csv
+
+# Ignore log files
+# *.log
+
+# Ignore temporary files
+# *.tmp
+# *.temp
+
+# Ignore system files
+# .DS_Store
+# Thumbs.db
+
+# Ignore Python cache
+# __pycache__/
+# *.py[cod]
+
+# Ignore environment files
+# .env
+
+# Ignore SQL backup files
+# *.sql.bak
